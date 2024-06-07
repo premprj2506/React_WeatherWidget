@@ -1,8 +1,62 @@
-# React + Vite
+# React WeatherWidget
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+React WeatherWidget is a simple and responsive weather application built with React and Vite. It fetches and displays current weather data for any city using a weather API.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+
+- Fetches and displays current weather information.
+- Search functionality for different cities.
+- Responsive design suitable for all devices.
+
+## Prerequisites
+
+- Node.js and npm installed on your machine.
+
+## Getting Started
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/premprj2506/React_WeatherWidget.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd React_WeatherWidget
+   ```
+3. Install the dependencies:
+   ```bash
+   npm install
+   ```
+
+### Running the App
+
+1. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+## Usage
+
+- Enter a city name in the search bar and press Enter to fetch weather data.
+- The current weather information for the specified city will be displayed.
+
+## Technologies Used
+
+- React
+- Vite
+- CSS
+
+## Contributing
+
+Contributions are welcome! Please fork the repository and create a pull request with your changes.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Acknowledgements
+
+- Weather data provided by [OpenWeatherMap](https://openweathermap.org/).
