@@ -36,7 +36,7 @@ export default function SearchBox({ upadateInfo }) {
 
   let handleInputChange = (event) => {
     setFormData((currData) => {
-      return { ...currData, [event.target.name]: event.target.value };
+      return { ...currData, [event.target.name]: event.target.value.trim() };
     });
   };
 
