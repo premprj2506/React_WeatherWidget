@@ -38,15 +38,16 @@ export default function InfoBox({ sampleData }) {
 
   return (
     <Card
-      sx={{
-        maxWidth: 400,
-        minWidth: 300, // Set the minimum width
-        margin: "1rem auto",
+      style={{
+        width: "100%",
+        height: "100%",
         borderRadius: "0.75rem",
+        display: "flex",
+        flexDirection: "column",
       }}
     >
       <CardMedia sx={{ height: 180 }} image={imageUrl} title="Weather image" />
-      <CardContent>
+      <CardContent style={{ flexGrow: 1 }}>
         <Typography gutterBottom variant="h5" component="div">
           <div
             style={{
