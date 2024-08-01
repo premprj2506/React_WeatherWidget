@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 .WheatherBox {
@@ -12,9 +13,41 @@
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
     padding: 1.5rem;
     border-radius: 0.75rem;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5rem;
-    /* height: 430px; */
-    width: 350px;
+    margin: 5rem auto;
+    width: 90%;
+    max-width: 350px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .WheatherBox {
+        margin-top: 2rem;
+        padding: 1rem;
+        box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+    }
+}
+
+@media (max-width: 480px) {
+    .WheatherBox {
+        width: 95%;
+        padding: 0.75rem;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    }
+}
+
+/* Larger screen adjustments */
+@media (min-width: 1024px) {
+    .WheatherBox {
+        max-width: 500px; /* Increase max-width for larger screens */
+        padding: 2rem; /* Increase padding */
+        margin-top: 7rem; /* Increase margin-top */
+    }
+}
+
+@media (min-width: 1440px) {
+    .WheatherBox {
+        max-width: 600px; /* Further increase max-width */
+        padding: 2.5rem; /* Further increase padding */
+        margin-top: 10rem; /* Further increase margin-top */
+    }
 }
